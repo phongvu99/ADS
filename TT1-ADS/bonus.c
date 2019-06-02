@@ -22,7 +22,7 @@ int main()
     printf("Input your incomplete ISBN: \n");
     scanf("%lf", &isbn);
     x = checkdigit(isbn);
-    if (x <= 9)
+    if (x <= 9 && x >= 0)
     {
         printf("Your check digit is: %d \n", x);
         printf("Your ISBN is: %.0lf \n", isbn * 10 + x);
