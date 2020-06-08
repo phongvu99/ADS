@@ -1,0 +1,16 @@
+Problem1:
+- Write a program to enter a natural number n and find all sphenic number 
+from 1 to n using Recursion(combined with iteration if necessary)
+
+Note: A sphenic number is a product of p*q*r where p,q and r are three 
+distinct prime numbers.
+Example: 30 = 2*3*5, 42=2*3*7, 66=2*3*11.
+30, 42, 66, 78, 102, 105, 110, 114, 130, 138, 154, 165,... are sphenic numbers.
+
+- Calculate the complexity of your program(Best scenario, Worst scenario, Average). Justify your answer.
+
+Problem2:
+- Write the program to solve Problem1 using Linked List ADT with necessary 
+function and Linked List principle
+
+30, 42, 66, 70, 78, 102, 105, 110, 114, 130, 138, 154, 165
